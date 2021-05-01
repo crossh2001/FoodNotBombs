@@ -271,7 +271,8 @@
 }
  .right_header_info {
      width: 100%;
-     float: left;
+     /*float: left;*/
+     float: center;
      padding: 20px 0 0;
 }
  .right_header_info ul {
@@ -363,12 +364,13 @@
 }
  .slider_cont p {
      font-size: 18px;
-     color: #999;
+     color: white;
      line-height: normal;
      font-weight: 300;
      margin-top: 15px;
      margin-bottom: 10px;
      padding-right: 30px;
+     text-align: center;
 }
  #main_slider .carousel-control-prev, #main_slider .carousel-control-next {
      width: 65px;
@@ -703,6 +705,13 @@
      padding-bottom: 15px;
      margin-bottom: 15px;
 }
+/*******************************************************/
+.logo img{
+     border-radius: 50%;
+
+}
+/********************************************************/
+
  ul.lik {
     text-align: center;
      margin-top: 10px;
