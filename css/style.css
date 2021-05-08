@@ -526,6 +526,7 @@ header .container-fluid {
 /** about **/
 .about {
   padding-top: 90px;
+  background-color: #f8eab7;
 }
 .about .about_box {
   background: #191918;
@@ -563,6 +564,8 @@ header .container-fluid {
   margin-right: 0px;
   padding: 92px 0px 0px 60px;
   margin-right: -64px;
+  height: 80%; 
+  width: 80%;
 }
 /** end about **/
 /** blog **/
