@@ -383,6 +383,7 @@ header .container-fluid {
   color: #fff;
   line-height: 70px;
   letter-spacing: -2px;
+  text-align: left;
 }
 .slider_cont p {
   font-size: 18px;
@@ -392,7 +393,7 @@ header .container-fluid {
   margin-top: 15px;
   margin-bottom: 10px;
   padding-right: 30px;
-  text-align: center;
+  text-align: left;
 }
 #main_slider .carousel-control-prev,
 #main_slider .carousel-control-next {
