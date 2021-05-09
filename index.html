@@ -1,475 +1,571 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- mobile metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
     <title>FoodNotBombs</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- owl css -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!-- responsive-->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css" />
     <!-- awesome fontfamily -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-</head>
-<!-- body -->
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
+    ><![endif]-->
+  </head>
+  <!-- body -->
 
-<body class="main-layout">
+  <body class="main-layout">
     <!-- loader  -->
     <div class="loader_bg">
-        <div class="loader"><img src="images/loading.gif" alt="" /></div>
+      <div class="loader"><img src="images/loading.gif" alt="" /></div>
     </div>
 
     <div class="wrapper">
-    <!-- end loader -->
+      <!-- end loader -->
 
-     <div class="sidebar">
-            <!-- Sidebar  -->
-            <nav id="sidebar">
+      <div class="sidebar">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+          <div id="dismiss">
+            <i class="fa fa-arrow-left"></i>
+          </div>
 
-                <div id="dismiss">
-                    <i class="fa fa-arrow-left"></i>
-                </div>
+          <ul class="list-unstyled components">
+            <li class="active">
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="recipe.html">Recipe</a>
+            </li>
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-                <ul class="list-unstyled components">
-
-                    <li class="active">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        <a href="recipe.html">Recipe</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-
-            </nav>
-        </div>
-
-    <div id="content">
-    <!-- header -->
-    <header>
-        <div class="container-fluid">
+      <div id="content">
+        <!-- header -->
+        <header>
+          <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="full">
-                        <a class="logo" href="index.html"><img src="images/logo.gif" alt="#" /></a>
-                    </div>
+              <div class="col-md-3">
+                <div class="full">
+                  <a class="logo" href="index.html"
+                    ><img src="images/logo.gif" alt="#"
+                  /></a>
                 </div>
-                <div class="col-md-9">
-                    <div class="full">
-                        <div class="right_header_info">
-                            <ul>
-                                <li class="dinone"> <img style="margin-right: 15px;margin-left: 15px;" src="images/phone_icon.png" alt="#"><a href="#" >575-770-3377</a></li>
-                                <li class="dinone"><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#"><a href="#">menu@foodnotbombs.net</a></li>
-                                <li class="dinone"><img style="margin-right: 15px;height: 21px;position: relative;top: -2px;" src="images/location_icon.png" alt="#"><a href="#">P.O. Box 422, Santa Cruz CA 95061</a></li>
-                                <li>
-                                    <button type="button" id="sidebarCollapse">
-                                        <img src="images/menu_icon.png" alt="#">
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- end header -->
-    <!-- start slider section -->
-    <div class="slider_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="full">
-                        <div id="main_slider" class="carousel vert slide" data-ride="carousel" data-interval="5000">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <div class="slider_cont">
-                                                <h3>FOOD NOT BOMBS MATERIALS</h3>
-                                                <p>You can find all the Food Not Bombs materials, DVDs, prints,
-                                                    stickers, t-shirts, ornaments, and other materials you need to help you start
-                                                    a Food Not Bombs group or to give as a gift to your friends and family.</p>
-                                                <a class="main_bt_border" href="#">Order Now</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7">
-                                            <div class="slider_image full text_align_center">
-                                                <img class="img-responsive" src="images/609_400_materials_with_flyers.jpg" alt="#" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-5">
-                                            <div class="slider_cont">
-                                                <h3>THE <br>
-                                                    ANARCHIST
-                                                     COOKBOOK
-                                                    </h3>
-                                                <p>For decades, anarchists have talked about publishing a real anarchist cookbook, a book by anarchists and whose 
-                                                    contents accurately reflect anarchist attitudes and beliefs. This is it. 
-                                                    The Anarchist Cookbook features lengthy sections on anarchism in theory and practice, recipes for social 
-                                                    and political change, sections on food politics and cooking, and dozens of tasty vegan recipes.
-                                                </p>
-                                                <a class="main_bt_border" href="#">Order Now</a>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-7 full text_align_center">
-                                            <div class="slider_image">
-                                                <img class="img-responsive" src="images/646_500_Anarchist Cookbook cover.jpg" alt="#" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-                                <i class="fa fa-angle-up"></i>
-                            </a>
-                            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-                                <i class="fa fa-angle-down"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end slider section -->
-
-
-
-
-
-
- 
-
-
-
-
-
-
-    <!-- section -->
-    <section class="resip_section">
-        <div class="container">
-            <div class="row">
-         <div class="col-md-12">
-       <div class="ourheading">
-    <h2>Our FOOD NOT BOMBS MATERIALS</h2>
-  </div>
-</div>    
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="owl-carousel owl-theme">
-
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/681_500_hungry_for_peace_cover.jpg" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>Hungry for peace</h3>
-                        <h4><span class="theme_color">$</span>18.95</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/646_500_Anarchist Cookbook cover.jpg" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>Anarchist Cookbook</h3>
-                        <h4><span class="theme_color">$</span>19.95</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/425_fnb_buttons.jpg" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>Buttons</h3>
-                        <h4><span class="theme_color">$</span>10.00</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/353fnb_patches.jpg" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>Patches</h3>
-                        <h4><span class="theme_color">$</span>20.00</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/491_450_fnb_t_shirt.jpg" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>T-Shirt</h3>
-                        <h4><span class="theme_color">$</span>18.00</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/rs1.png" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>Homemade</h3>
-                        <h4><span class="theme_color">$</span>10</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/rs2.png" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>Noodles</h3>
-                        <h4><span class="theme_color">$</span>20</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/rs3.png" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>Egg</h3>
-                        <h4><span class="theme_color">$</span>30</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/rs4.png" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>Sushi Dizzy</h3>
-                        <h4><span class="theme_color">$</span>40</h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="product_blog_img">
-                        <img src="images/rs5.png" alt="#" />
-                    </div>
-                    <div class="product_blog_cont">
-                        <h3>The Coffee Break</h3>
-                        <h4><span class="theme_color">$</span>50</h4>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-</section>
-<div class="bg_bg">
-<!-- about -->
-<div class="about">
-    <div class="container">
-      <div class="row">
-         <div class="col-md-12">
-             <div class="title">
-                <i><img src="images/title.png" alt="#"/></i>
-                <h2>HUNGRY FOR PEACE</h2>
-                <span>"This is a self-defense guide for the compassionate, a catering cookbook for the generous, and a history of social change, but above all it's a hymn to compassion. "
-                   <br><br> -Raj Patel, author of Stuffed and Starved
-                  
-                </span>
-             </div>
-          </div>
-       </div>
-       <div class="row">
-         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-             <div class="about_box">
-                 <h3>Best 	HUNGRY FOR PEACE</h3>
-                 <p>Our first book helped hundreds of people start local Food Not Bombs groups and introduced thousands of others to the movement for to social change. With the addition information in our new book we expect to encourage another wave of interest. We sold 10,000 copies of "Food Not Bombs, How to Feed The Hungry and Build Community " and we were down to the last 100 books realized we need to write a new edition to make it current. So many things have changed since 1992 when the first editon of "Food Not Bombs, How to Feed The Hungry and Build Community "was published. 
-                </p>
-                 <a href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-             </div>
-         </div>
-          <div class="col-xl-5 col-lg-5 col-md-10 col-sm-12 about_img_boxpdnt">
-             <div class="about_img">
-                 <figure><img src="images/peace_book.jpg" alt="#/"></figure>
-             </div>
-         </div>      
-       </div> 
-    </div>
-</div>
-<!-- end about -->
-
-<!-- blog -->
-<div class="blog">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="title">
-          <i><img src="images/title.png" alt="#"/></i>
-          <h2>Our Blog</h2>
-          <span>when looking at its layout. The point of using Lorem</span>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mar_bottom">
-        <div class="blog_box">
-          <div class="blog_img_box">
-            <figure><img src="images/blog_img1.png" alt="#"/>
-             <span>02 FEB 2019</span>
-            </figure>
-          </div>
-          <h3>Spicy Barger</h3>
-          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the </p>
-        </div>
-      </div>
-       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mar_bottom">
-        <div class="blog_box">
-          <div class="blog_img_box">
-            <figure><img src="images/blog_img2.png" alt="#"/>
-             <span>02 FEB 2019</span>
-            </figure>
-          </div>
-          <h3>Egg & Tosh</h3>
-          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the </p>
-        </div>
-      </div>
-       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-        <div class="blog_box">
-          <div class="blog_img_box">
-            <figure><img src="images/blog_img3.png" alt="#"/>
-             <span>02 FEB 2019</span>
-            </figure>
-          </div>
-          <h3>Pizza</h3>
-          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- end blog -->
-
-<!-- Our Client -->
-<div class="Client">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="title">
-          <i><img src="images/title.png" alt="#"/></i>
-          <h2>Our Client</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
-         <div class="Client_box">
-           <img src="images/client.jpg" alt="#"/>
-           <h3>Roock Due</h3>
-           <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.</p>
-           <i><img src="images/client_icon.png" alt="#"/></i>
-         </div>
-      </div>
-    </div>
-  </div>
-</div>  
-<!-- end Our Client -->
-</div>
-    <!-- footer -->
-    <fooetr>
-        <div class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                  <div class=" col-md-12">
-                    <h2>Request  A<strong class="white"> Call  Back</strong></h2>
+              </div>
+              <div class="col-md-9">
+                <div class="full">
+                  <div class="right_header_info">
+                    <ul>
+                      <li class="dinone">
+                        <img
+                          style="margin-right: 15px; margin-left: 15px"
+                          src="images/phone_icon.png"
+                          alt="#"
+                        /><a href="#">575-770-3377</a>
+                      </li>
+                      <li class="dinone">
+                        <img
+                          style="margin-right: 15px"
+                          src="images/mail_icon.png"
+                          alt="#"
+                        /><a href="#">menu@foodnotbombs.net</a>
+                      </li>
+                      <li class="dinone">
+                        <img
+                          style="
+                            margin-right: 15px;
+                            height: 21px;
+                            position: relative;
+                            top: -2px;
+                          "
+                          src="images/location_icon.png"
+                          alt="#"
+                        /><a href="#">P.O. Box 422, Santa Cruz CA 95061</a>
+                      </li>
+                      <li>
+                        <button type="button" id="sidebarCollapse">
+                          <img src="images/menu_icon.png" alt="#" />
+                        </button>
+                      </li>
+                    </ul>
                   </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                      
-                        <form class="main_form">
-                            <div class="row">
-                             
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <input class="form-control" placeholder="Name" type="text" name="Name">
-                                </div>
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <input class="form-control" placeholder="Email" type="text" name="Email">
-                                </div>
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <input class="form-control" placeholder="Phone" type="text" name="Phone">
-                                </div>
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
-                                </div>
-                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                    <button class="send">Send</button>
-                                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- end header -->
+        <!-- start slider section -->
+        <div class="slider_section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="full">
+                  <div
+                    id="main_slider"
+                    class="carousel vert slide"
+                    data-ride="carousel"
+                    data-interval="5000"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="row">
+                          <div class="col-md-5">
+                            <div class="slider_cont">
+                              <h3>FOOD NOT BOMBS MATERIALS</h3>
+                              <p>
+                                You can find all the Food Not Bombs materials,
+                                DVDs, prints, stickers, t-shirts, ornaments, and
+                                other materials you need to help you start a
+                                Food Not Bombs group or to give as a gift to
+                                your friends and family.
+                              </p>
+                              <a class="main_bt_border" href="#">Order Now</a>
                             </div>
-                        </form>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                        <div class="img-box">
-                            <figure><img src="images/img.jpg" alt="img" /></figure>
+                          </div>
+                          <div class="col-md-7">
+                            <div class="slider_image full text_align_center">
+                              <img
+                                class="img-responsive"
+                                src="images/609_400_materials_with_flyers.jpg"
+                                alt="#"
+                              />
+                            </div>
+                          </div>
                         </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                          <div class="col-md-5">
+                            <div class="slider_cont">
+                              <h3>
+                                THE <br />
+                                ANARCHIST COOKBOOK
+                              </h3>
+                              <p>
+                                For decades, anarchists have talked about
+                                publishing a real anarchist cookbook, a book by
+                                anarchists and whose contents accurately reflect
+                                anarchist attitudes and beliefs. This is it. The
+                                Anarchist Cookbook features lengthy sections on
+                                anarchism in theory and practice, recipes for
+                                social and political change, sections on food
+                                politics and cooking, and dozens of tasty vegan
+                                recipes.
+                              </p>
+                              <a class="main_bt_border" href="#">Order Now</a>
+                            </div>
+                          </div>
+                          <div class="col-md-7 full text_align_center">
+                            <div class="slider_image">
+                              <img
+                                class="img-responsive"
+                                src="images/646_500_Anarchist Cookbook cover.jpg"
+                                alt="#"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                    <a
+                      class="carousel-control-prev"
+                      href="#main_slider"
+                      role="button"
+                      data-slide="prev"
+                    >
+                      <i class="fa fa-angle-up"></i>
+                    </a>
+                    <a
+                      class="carousel-control-next"
+                      href="#main_slider"
+                      role="button"
+                      data-slide="next"
+                    >
+                      <i class="fa fa-angle-down"></i>
+                    </a>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end slider section -->
+
+        <!-- section -->
+        <section class="resip_section">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="ourheading">
+                  <h2 style="text-align: center; textsiz">Products</h2>
+                </div>
+              </div>
+              <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="footer_logo">
-                          <a href="index.html"><img src="images/logo1.jpg" alt="logo" /></a>
+                  <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                      <div class="item">
+                        <div class="product_blog_img">
+                          <img
+                            src="images/681_500_hungry_for_peace_cover.jpg"
+                            alt="#"
+                          />
                         </div>
-                    </div>
-                    <div class="col-md-12">
-                        <ul class="lik">
-                            <li class="active"> <a href="index.html">Home</a></li>
-                            <li> <a href="about.html">About</a></li>
-                            <li> <a href="recipe.html">Recipe</a></li>
-                            <li> <a href="blog.html">Blog</a></li>
-                            <li> <a href="contact.html">Contact us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="new">
-                            <h3>Newsletter</h3>
-                            <form class="newtetter">
-                                <input class="tetter" placeholder="Your email" type="text" name="Your email">
-                                <button class="submit">Subscribe</button>
-                            </form>
+                        <div class="product_blog_cont">
+                          <h3>Hungry for peace</h3>
+                          <h4><span class="theme_color">$</span>18.95</h4>
                         </div>
+                      </div>
+                      <div class="item">
+                        <div class="product_blog_img">
+                          <img
+                            src="images/646_500_Anarchist Cookbook cover.jpg"
+                            alt="#"
+                          />
+                        </div>
+                        <div class="product_blog_cont">
+                          <h3>Anarchist Cookbook</h3>
+                          <h4><span class="theme_color">$</span>19.95</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="product_blog_img">
+                          <img src="images/425_fnb_buttons.jpg" alt="#" />
+                        </div>
+                        <div class="product_blog_cont">
+                          <h3>Buttons</h3>
+                          <h4><span class="theme_color">$</span>10.00</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="product_blog_img">
+                          <img src="images/353fnb_patches.jpg" alt="#" />
+                        </div>
+                        <div class="product_blog_cont">
+                          <h3>Patches</h3>
+                          <h4><span class="theme_color">$</span>20.00</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="product_blog_img">
+                          <img src="images/491_450_fnb_t_shirt.jpg" alt="#" />
+                        </div>
+                        <div class="product_blog_cont">
+                          <h3>T-Shirt</h3>
+                          <h4><span class="theme_color">$</span>18.00</h4>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="product_blog_img">
+                          <img src="images/503_fnb_stickers.jpg" alt="#" />
+                        </div>
+                        <div class="product_blog_cont">
+                          <h3>Stickers</h3>
+                          <h4><span class="theme_color">$</span>2</h4>
+                        </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="bg_bg">
+          <!-- about -->
+          <div class="about">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="title">
+                    <i><img src="images/title.png" alt="#" /></i>
+                    <h2>HUNGRY FOR PEACE</h2>
+                    <span
+                      >"This is a self-defense guide for the compassionate, a
+                      catering cookbook for the generous, and a history of
+                      social change, but above all it's a hymn to compassion. "
+                      <br /><br />
+                      -Raj Patel, author of Stuffed and Starved
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                  <div class="about_box">
+                    <h3>Best HUNGRY FOR PEACE</h3>
+                    <p>
+                      Our first book helped hundreds of people start local Food
+                      Not Bombs groups and introduced thousands of others to the
+                      movement for to social change. With the addition
+                      information in our new book we expect to encourage another
+                      wave of interest. We sold 10,000 copies of "Food Not
+                      Bombs, How to Feed The Hungry and Build Community " and we
+                      were down to the last 100 books realized we need to write
+                      a new edition to make it current. So many things have
+                      changed since 1992 when the first editon of "Food Not
+                      Bombs, How to Feed The Hungry and Build Community "was
+                      published.
+                    </p>
+                    <a href="#"
+                      >Read More
+                      <i class="fa fa-long-arrow-right" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-5 col-lg-5 col-md-10 col-sm-12 about_img_boxpdnt"
+                >
+                  <div class="about_img">
+                    <figure>
+                      <img src="images/peace_book.jpg" alt="#/" />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end about -->
+
+          <!-- blog -->
+          <div class="blog">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="title">
+                    <i><img src="images/title.png" alt="#" /></i>
+                    <h2>Our Blog</h2>
+                    <span
+                      >when looking at its layout. The point of using
+                      Lorem</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mar_bottom">
+                  <div class="blog_box">
+                    <div class="blog_img_box">
+                      <figure>
+                        <img src="images/blog_img1.png" alt="#" />
+                        <span>02 FEB 2019</span>
+                      </figure>
+                    </div>
+                    <h3>Spicy Barger</h3>
+                    <p>
+                      The standard chunk of Lorem Ipsum used since the 1500s is
+                      reproduced below for those interested. Sections 1.10.32
+                      and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                      are also reproduced in their exact original form,
+                      accompanied by English versions from the
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 mar_bottom">
+                  <div class="blog_box">
+                    <div class="blog_img_box">
+                      <figure>
+                        <img src="images/blog_img2.png" alt="#" />
+                        <span>02 FEB 2019</span>
+                      </figure>
+                    </div>
+                    <h3>Egg & Tosh</h3>
+                    <p>
+                      The standard chunk of Lorem Ipsum used since the 1500s is
+                      reproduced below for those interested. Sections 1.10.32
+                      and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                      are also reproduced in their exact original form,
+                      accompanied by English versions from the
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                  <div class="blog_box">
+                    <div class="blog_img_box">
+                      <figure>
+                        <img src="images/blog_img3.png" alt="#" />
+                        <span>02 FEB 2019</span>
+                      </figure>
+                    </div>
+                    <h3>Pizza</h3>
+                    <p>
+                      The standard chunk of Lorem Ipsum used since the 1500s is
+                      reproduced below for those interested. Sections 1.10.32
+                      and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero
+                      are also reproduced in their exact original form,
+                      accompanied by English versions from the
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end blog -->
+
+          <!-- Our Client -->
+          <div class="Client">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="title">
+                    <i><img src="images/title.png" alt="#" /></i>
+                    <h2>Our Client</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 offset-md-3">
+                  <div class="Client_box">
+                    <img src="images/client.jpg" alt="#" />
+                    <h3>Roock Due</h3>
+                    <p>
+                      There are many variations of passages of Lorem Ipsum
+                      available, but the majority have suffered alteration in
+                      some form, by injected humour, or randomised words which
+                      don’t look even slightly believable. If you are going to
+                      use a passage of Lorem Ipsum, you need to be sure there
+                      isn’t anything embarrassing hidden in the middle of text.
+                    </p>
+                    <i><img src="images/client_icon.png" alt="#" /></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end Our Client -->
+        </div>
+        <!-- footer -->
+        <fooetr>
+          <div class="footer">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2>Request A<strong class="white"> Call Back</strong></h2>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <form class="main_form">
+                    <div class="row">
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <input
+                          class="form-control"
+                          placeholder="Name"
+                          type="text"
+                          name="Name"
+                        />
+                      </div>
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <input
+                          class="form-control"
+                          placeholder="Email"
+                          type="text"
+                          name="Email"
+                        />
+                      </div>
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <input
+                          class="form-control"
+                          placeholder="Phone"
+                          type="text"
+                          name="Phone"
+                        />
+                      </div>
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <textarea
+                          class="textarea"
+                          placeholder="Message"
+                          type="text"
+                          name="Message"
+                        ></textarea>
+                      </div>
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <button class="send">Send</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                  <div class="img-box">
+                    <figure><img src="images/img.jpg" alt="img" /></figure>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="footer_logo">
+                    <a href="index.html"
+                      ><img src="images/logo1.jpg" alt="logo"
+                    /></a>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <ul class="lik">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-12">
+                  <div class="new">
+                    <h3>Newsletter</h3>
+                    <form class="newtetter">
+                      <input
+                        class="tetter"
+                        placeholder="Your email"
+                        type="text"
+                        name="Your email"
+                      />
+                      <button class="submit">Subscribe</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="copyright">
-                <div class="container">
-                    <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
-                </div>
+              <div class="container">
+                <p>
+                  © 2019 All Rights Reserved. Design by<a
+                    href="https://html.design/"
+                  >
+                    Free Html Templates</a
+                  >
+                </p>
+              </div>
             </div>
-        </div>
-    </fooetr>
-    <!-- end footer -->
-
-    </div>
+          </div>
+        </fooetr>
+        <!-- end footer -->
+      </div>
     </div>
     <div class="overlay"></div>
     <!-- Javascript files-->
@@ -478,63 +574,60 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
-     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-    
-     <script src="js/jquery-3.0.0.min.js"></script>
-   <script type="text/javascript">
-        $(document).ready(function() {
-            $("#sidebar").mCustomScrollbar({
-                theme: "minimal"
-            });
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
 
-            $('#dismiss, .overlay').on('click', function() {
-                $('#sidebar').removeClass('active');
-                $('.overlay').removeClass('active');
-            });
-
-            $('#sidebarCollapse').on('click', function() {
-                $('#sidebar').addClass('active');
-                $('.overlay').addClass('active');
-                $('.collapse.in').toggleClass('in');
-                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
-            });
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#sidebar").mCustomScrollbar({
+          theme: "minimal",
         });
+
+        $("#dismiss, .overlay").on("click", function () {
+          $("#sidebar").removeClass("active");
+          $(".overlay").removeClass("active");
+        });
+
+        $("#sidebarCollapse").on("click", function () {
+          $("#sidebar").addClass("active");
+          $(".overlay").addClass("active");
+          $(".collapse.in").toggleClass("in");
+          $("a[aria-expanded=true]").attr("aria-expanded", "false");
+        });
+      });
     </script>
 
     <style>
-    #owl-demo .item{
+      #owl-demo .item {
         margin: 3px;
-    }
-    #owl-demo .item img{
+      }
+      #owl-demo .item img {
         display: block;
         width: 100%;
         height: auto;
-    }
+      }
     </style>
 
-     
-      <script>
-         $(document).ready(function() {
-           var owl = $('.owl-carousel');
-           owl.owlCarousel({
-             margin: 10,
-             nav: true,
-             loop: true,
-             responsive: {
-               0: {
-                 items: 1
-               },
-               600: {
-                 items: 2
-               },
-               1000: {
-                 items: 5
-               }
-             }
-           })
-         })
-      </script>
-
-</body>
-
+    <script>
+      $(document).ready(function () {
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+          margin: 10,
+          nav: true,
+          loop: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 2,
+            },
+            1000: {
+              items: 5,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
 </html>
