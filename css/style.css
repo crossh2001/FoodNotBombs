@@ -671,7 +671,7 @@ header .container-fluid {
 /** end Our Client **/
 /*--------------------------------------------------------------------- footer ---------------------------------------------------------------------*/
 .footer {
-  background: #d8b00f;
+  background: /*#d8b00f;*/ #f8e5b0;
   padding-top: 90px;
   margin-top: 90px;
 }
