@@ -759,7 +759,10 @@ ul.lik li a:hover {
   color: #fff;
 }
 ul.lik li.active a {
-  color: #fff;
+  color: rgb(0, 0, 0);
+}
+ul.lik li.active a:hover {
+  color: rgb(255, 255, 255);
 }
 .new {
   text-align: center;
